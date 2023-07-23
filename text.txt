@@ -1,0 +1,27 @@
+E-cart 
+======
+
+admin side
+         ->all product view
+         ->single product view
+         ->add product
+         ->edit product
+         ->delete product
+
+Search
+Category
+
+lazy loading   (module)   ->to increase the loading time
+============
+        project have two module 
+                                (1) root module
+                                (2) lazy module (includes high traffic pages)&&(product related pages)
+creation of lazy loading
+               (terminal>ng g module namemodule --route namemodule --module app.module)
+               created !!
+components in that module
+                (src>app>product>terminal)        
+       1.   set path in routing module.ts                
+       2.   
+
+normal module->       ng g module moduleName 
